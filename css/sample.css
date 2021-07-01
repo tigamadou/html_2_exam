@@ -21,10 +21,7 @@ html {
     vertical-align: middle;
   }
 
-  .main-header p img{
-    width: 13%;
-  }
-  /*  */
+ /*  */
   header {
     height: 50px;
     background-color: #2B2B2B;
@@ -53,9 +50,14 @@ html {
   /*  */
   .main-header img {
   /*  */
+  width: 13%;
   }
   .about {
   /* About  */
+    font-size: .8rem;
+  }
+  .about h1{
+    font-size: 1.5rem;
   }
   /*  */
   .function {
