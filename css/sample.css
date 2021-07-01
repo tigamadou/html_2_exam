@@ -2,6 +2,9 @@ html {
     position: relative;
     min-height: 100%;
   }
+*{
+  box-sizing: border-box;
+}
   body {
     text-align: center;
     height: 100%;
@@ -54,17 +57,37 @@ html {
   }
   .about {
   /* About  */
+  padding: 16px;
     font-size: .8rem;
   }
   .about h1{
     font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
   /*  */
   .function {
+    background-color: #867d7d;
+    padding: 16px;
+    
+    
   }
   .function-images {
+    display: table;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    
   }
   .function-image {
+    float: left;
+    width: 150px;
+    padding: 16px;
+    font-size: .8rem;
+  }
+
+  .function-image img{
+    max-width: 100%;
+    width: 60px;
   }
   /*  */
   footer {
